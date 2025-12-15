@@ -1,5 +1,5 @@
 # CA-RER-MS
-Data and Codes of the paper "Current Account and Real Effective Exchange Rate Dynamics: The Role of Nonlinear Dynamics in Brazil"
+Data and Codes of the paper "Current Account and Real Effective Exchange Rate Dynamics: The Role of Nonlinear Dynamics in Brazil" Link to SSRN version (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5144785)
 
 files with extension *.fl are Oxmetrics Batch codes to run the models;
 files with extension *.in7 anbd *.bn7 contains the data in Oxmetrics format;
