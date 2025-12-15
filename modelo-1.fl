@@ -1,0 +1,13 @@
+// Batch code for Switching( 1)
+module("PcGive");
+package("Switching");
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = DLRER, DLBS, DLTOT, DCA;
+    R = DLRER 1, DLBS 1, DLTOT 1, DCA 1, CCAa 1, CCAb 1, CSeasonal 0:11;
+}
+MS(2);
+switchingvar;
+estimate("ML", 1999, 3, 2024, 3);
+testsummary();

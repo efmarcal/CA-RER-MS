@@ -1,0 +1,109 @@
+// Batch code for SYS(27)
+module("PcGive");
+package("PcGive", "Multiple-equation");
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:13, CA 1:13, LBS 1:13, LTOT 1:13;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:13, CA 1:12, LBS 1:12, LTOT 1:12;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:11, CA 1:11, LBS 1:11, LTOT 1:11;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:10, CA 1:10, LBS 1:10, LTOT 1:10;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:9, CA 1:9, LBS 1:9, LTOT 1:9;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:8, CA 1:8, LBS 1:8, LTOT 1:8;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:7, CA 1:7, LBS 1:7, LTOT 1:7;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:6, CA 1:6, LBS 1:6, LTOT 1:6;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:5, CA 1:5, LBS 1:5, LTOT 1:5;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:4, CA 1:4, LBS 1:4, LTOT 1:4;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:3, CA 1:3, LBS 1:3, LTOT 1:3;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:2, CA 1:2, LBS 1:2, LTOT 1:2;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LRER, CA, LBS, LTOT;
+    Z = LRER 1:1, CA 1:1, LBS 1:1, LTOT 1:1;
+    U = Constant, CSeasonal 0:10;
+}
+estimate("OLS", 2000, 2, 2024, 3);
+progress;

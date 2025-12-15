@@ -1,0 +1,166 @@
+// Batch code for CATS( 3)
+module("CATS");
+package("CATS_UI");
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(13);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(12);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(11);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(10);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(9);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(8);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(7);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(6);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(5);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(4);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(3);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(2);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+	  
+usedata("data_brazil-tripe.in7");
+system
+{
+    Y = LBS, CA ;
+}
+Lags(1);
+I1Rank(3);
+Trend("CIMEAN");
+Seasonals(1);
+estimate("RRR", 2000, 2, 2024, 3);
+
+progress;
+
+			  
